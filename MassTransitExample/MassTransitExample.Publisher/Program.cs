@@ -33,7 +33,7 @@ namespace MassTransitExample.Publisher
                     Console.ReadLine();
                     var message = new ProductCreatedEvent
                     {
-                        Id = 1,
+                        Id = i,
                         Name = $"Product-{i}"
                     };
                     i++;
